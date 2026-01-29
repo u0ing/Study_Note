@@ -1,0 +1,87 @@
+# 📑 2020년 06월 06일 정보처리기사 필기 기출 분석
+
+## 📊 학습 결과 요약
+
+| 과목 | 맞은 개수 / 전체 개수 | 점수 | 통과 여부 |
+| :--- | :---: | :---: | :---: |
+| **1과목: 소프트웨어 설계** | 10 / 20 | 50점 | **통과** |
+| **2과목: 소프트웨어 개발** | 3 / 20 | 15점 | <span style="color:red">**과락**</span> |
+| **3과목: 데이터베이스 구축** | 6 / 20 | 30점 | <span style="color:red">**과락**</span> |
+| **4과목: 프로그래밍 언어 활용** | 7 / 20 | 35점 | <span style="color:red">**과락**</span> |
+| **5과목: 정보시스템 구축 관리** | 7 / 20 | 35점 | <span style="color:red">**과락**</span> |
+| **총계 / 평균** | **33 / 100** | **33점** | **불합격** |
+
+> **💡 목표:** 첫 기출인 만큼 점수보다는 한 문제씩 철저히 분석하여 출제 패턴을 파악하는 데 집중합니다.
+
+---
+
+# 📒 1과목 : 소프트웨어 설계 (Software Design)
+
+### 🔍 01 ~ 10번 문제 분석
+
+**1. 요구 사항 검토 방법은?** ① 빌드 검증  <span style="color: #0000FF;">② 동료 검토</span>  <mark style="background-color: #FF00004D;">**③ 워크 스루**</mark>  ④ 개발자 검토  
+> **핵심:** '사전 배포'와 '짧은 검토'가 키워드.
+
+**2. 일련번호를 부여하는 방식의 코드는?** <span style="color: #0000FF;">① 연상 코드</span>  ② 블록 코드  <mark style="background-color: #FF00004D;">**③ 순차 코드**</mark>  ④ 표의 숫자 코드  
+> **핵심:** 차례대로 번호를 매기는 것은 '순차(Sequence)' 코드.
+
+**3. 데이터를 추상화하는 단위는?** <span style="color: #0000FF;">① 메소드</span>  <mark style="background-color: #FF00004D;">**② 클래스**</mark>  ③ 상속성  ④ 메시지  
+> **핵심:** 객체지향의 기본 단위이자 추상화의 핵심은 '클래스'.
+
+**4. 데이터 흐름도(DFD)의 구성요소가 아닌 것은?** ① process  ② data flow  <span style="color: #0000FF;">③ data store</span>  <mark style="background-color: #FF00004D;">**④ data dictionary**</mark>  
+> **핵심:** 데이터 사전(DD)은 DFD를 설명하는 도구이지 구성요소는 아님.
+
+**5. 플랫폼 성능특성 분석 측정 항목이 아닌 것은?** ① 응답시간  ② 가용성  ③ 사용률  <mark style="background-color: #FF00004D;"><span style="color: #0000FF;">**④ 서버 튜닝**</span></mark>  
+> **결과:** ✅ 정답! (튜닝은 성능을 개선하는 행위이지 측정 항목이 아님)
+
+**6. UML 스테레오 타입 객체 기호로 맞는 것은?** <mark style="background-color: #FF00004D;"><span style="color: #0000FF;">**① 《 》**</span></mark>  ② (( ))  ③ {{ }}  ④ [[ ]]  
+> **결과:** ✅ 정답! (길러멧 기호 사용)
+
+**7. 디자인 패턴에서 행위 패턴에 속하는 것은?** ① Builder  ② Visitor  ③ Prototype  <span style="color: #0000FF;">④ Bridge</span>  
+> **정답:** <mark style="background-color: #FF00004D;">**② Visitor**</mark> (Bridge는 구조 패턴)
+
+**8. 자료 사전에서 자료의 생략을 의미하는 기호는?** ① { }  ② ** ③ =  <mark style="background-color: #FF00004D;"><span style="color: #0000FF;">**④ ( )**</span></mark>  
+> **결과:** ✅ 정답! (중괄호는 반복, 소괄호는 생략)
+
+**9. 트랜잭션을 감시하고 제어하는 미들웨어는?** ① RPC  ② ORB  <mark style="background-color: #FF00004D;"><span style="color: #0000FF;">**③ TP monitor**</span></mark>  ④ HUB  
+> **결과:** ✅ 정답! (Transaction Processing Monitor)
+
+**10. 누구나 쉽게 이해하고 사용할 수 있어야 한다는 UI 원칙은?** ① 유효성  <mark style="background-color: #FF00004D;">**② 직관성**</mark>  ③ 무결성  <span style="color: #0000FF;">④ 유연성</span>  
+> **핵심:** '쉽게 이해'는 직관성(Intuitiveness).
+
+---
+
+### 🔍 11 ~ 20번 문제 분석
+
+**11. XP의 5가지 가치로 거리가 먼 것은?** ① 용기  ② 의사소통  <mark style="background-color: #FF00004D;">**③ 정형분석**</mark>  <span style="color: #0000FF;">④ 피드백</span>  
+> **정답:** ③ (XP 가치: 용기, 의사소통, 피드백, 단순성, 존중)
+
+**12. Structural Diagram에 속하지 않은 것은?** ① Class  ② Object  ③ Component  <mark style="background-color: #FF00004D;"><span style="color: #0000FF;">**④ Activity**</span></mark>  
+> **결과:** ✅ 정답! (Activity는 정적이 아닌 '행위' 다이어그램)
+
+**13. 요구사항 분석과 거리가 먼 것은?** ① 제약설정  ② 타당성 조사  ③ 문서화  <mark style="background-color: #FF00004D;"><span style="color: #0000FF;">**④ 설계 명세서 작성**</span></mark>  
+> **결과:** ✅ 정답! (설명 명세서는 '설계' 단계의 산출물)
+
+**14. 럼바우 객체지향 분석 절차 순서는?** ① 객체→동적→기능  <mark style="background-color: #FF00004D;">**② 객체→동적→기능**</mark>  ③ 기능→동적→객체  <span style="color: #0000FF;">④ 기능→객체→동적</span>  
+> **정답:** ② (객동기 순서로 암기!)
+
+**15. 명세 기법 중 한 가지로 해석될 수 있도록 작성하는 원칙은?** ① 상호작용성  <mark style="background-color: #FF00004D;">**② 명확성**</mark>  ③ 독립성  <span style="color: #0000FF;">④ 내용성</span>  
+> **정답:** ② (한 가지 해석 = 명확성)
+
+**16. '부분-전체' 관계를 나타내는 용어는?** ① 일반화  ② 추상화  ③ 캡슐화  <mark style="background-color: #FF00004D;"><span style="color: #0000FF;">**④ 집단화**</span></mark>  
+> **결과:** ✅ 정답! (Aggregation/Composition은 집단화)
+
+**17. CASE의 주요 기능이 아닌 것은?** ① 그래픽 지원  ② 생명주기 연결  <mark style="background-color: #FF00004D;">**③ 언어번역**</mark>  <span style="color: #0000FF;">④ 개발 모형 지원</span>  
+> **정답:** ③ (언어 번역은 컴파일러의 역할)
+
+**18. DBMS 분석 시 고려사항으로 거리가 먼 것은?** ① 가용성  ② 성능  <mark style="background-color: #FF00004D;"><span style="color: #0000FF;">**③ 네트워크 구성도**</span></mark>  ④ 상호 호환성  
+> **결과:** ✅ 정답! (네트워크 구성도는 인프라 분석 사항)
+
+**19. HIPO에 대한 설명으로 거리가 먼 것은?** <mark style="background-color: #FF00004D;">**① 상향식 도구이다**</mark>  ② 3가지 도표가 있다  <span style="color: #0000FF;">③ 의존 관계 표현</span>  ④ 보기 쉽다  
+> **정답:** ① (HIPO는 **하향식** 소프트웨어 개발 도구)
+
+**20. Coad와 Yourdon 방법론에 해당하는 것은?** <mark style="background-color: #FF00004D;">**① Coad와 Yourdon 방법**</mark>  ② Booch 방법  ③ Jacobson 방법  <span style="color: #0000FF;">④ Wirfs-Brocks 방법</span>  
+> **정답:** ① (문제 안에 답이 있는 보너스 문제!)
+
+---
+
