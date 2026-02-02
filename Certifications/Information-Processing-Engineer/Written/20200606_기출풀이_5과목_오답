@@ -1,0 +1,66 @@
+# 📑 2020년 06월 06일 정보처리기사 필기 기출 분석
+
+## 📊 5과목 결과 대시보드
+
+| 과목 | 맞은 개수 / 전체 개수 | 점수 | 통과 여부 |
+| :--- | :---: | :---: | :---: |
+| **5과목: 정보시스템 구축 관리** | **7 / 20** | **35점** | <span style="color:red">**과락**</span> |
+
+> **Note:** 보안 공격 유형(Ransomware, Smurfing)과 비용 산정 모델(Putnam, COCOMO)의 특징을 명확히 구분해야 합니다.
+
+---
+
+# 📒 5과목 : 정보시스템 구축 관리 (Information System Management)
+
+### 🔍 81 ~ 90번 문제 분석
+
+**81. Rayleigh-Norden 곡선 이용 비용 산정 기법은?** <span style="color: #0000FF;">(내 답: ④)</span>  
+> **정답:** <mark style="background-color: #FF00004D;">**① Putnam 모형**</mark>  
+> **핵심:** Rayleigh-Norden 곡선의 노력 분포도를 기초로 하는 모형은 **Putnam(푸남)** 모형입니다.
+
+**82. 오버플로우 시 특정 값 변경을 감시하여 중단하는 기술은?** <span style="color: #0000FF;">(내 답: ②)</span>  
+> **정답:** <mark style="background-color: #FF00004D;">**④ 스택가드(Stack Guard)**</mark>  
+> **핵심:** '카나리(Canary)'라고 불리는 특정 값을 삽입해 변조를 막는 기술입니다.
+
+**83. 백도어 탐지 방법으로 틀린 것은?** <span style="color: #0000FF;">(내 답: ②)</span>  
+> **결과:** ✅ 정답! (백도어는 주로 '열린 포트'를 통해 탐지합니다.)
+
+**84. ICMP 특성을 악용해 시스템을 불능으로 만드는 공격은?** <span style="color: #0000FF;">(내 답: ④)</span>  
+> **결과:** ✅ 정답! (ICMP Echo를 이용한 대량 공격은 **Smurfing**입니다.)
+
+**86. JSON(JavaScript Object Notation)에 대한 설명?** <span style="color: #0000FF;">(내 답: ③)</span>  
+> **결과:** ✅ 정답! (속성-값 쌍으로 이루어진 경량 데이터 교환 형식입니다.)
+
+**89. COCOMO 중 5만 라인 이하 중소 규모 소프트웨어 유형은?** <span style="color: #0000FF;">(내 답: ④)</span>  
+> **정답:** <mark style="background-color: #FF00004D;">**② organic (조직형)**</mark>  
+> **핵심:** 5만 라인 이하 = Organic, 30만 라인 이하 = Semi-detached, 30만 라인 이상 = Embedded.
+
+---
+
+### 🔍 91 ~ 100번 문제 분석 (이미지 문제 포함)
+
+**91. 위험관리가 중심인 생명주기 모형은?** <span style="color: #0000FF;">(내 답: ②)</span>  
+> **정답:** <mark style="background-color: #FF00004D;">**① 나선형 모형(Spiral Model)**</mark>  
+> **핵심:** `계획-위험분석-개발-평가` 순서를 반복하며 **위험 관리**를 강조합니다.
+
+**92. [이미지] 오픈 소스 기반 분산 컴퓨팅 플랫폼은?** <span style="color: #0000FF;">(내 답: ①)</span>  
+> **결과:** ✅ 정답!  
+> **분석:** 빅데이터 저장/처리를 위한 가상화 대형 스토리지 플랫폼은 **하둡(Hadoop)**입니다.
+
+**93. 소인수 분해 이용 공개키 암호 알고리즘은?** <span style="color: #0000FF;">(내 답: ①)</span>  
+> **결과:** ✅ 정답! (RSA는 큰 소수의 곱을 이용한 대표적 공개키 암호화 방식입니다.)
+
+**94. [계산] LOC 예측 소요 기간 계산?** <span style="color: #0000FF;">(내 답: ③)</span>  
+> **정답:** <mark style="background-color: #FF00004D;">**① 25개월**</mark>  
+> **계산:** 50,000라인 / (200라인/월 * 10명) = 50,000 / 2,000 = **25개월**.
+
+**95. 최대 홉(Hop)수를 15로 제한한 프로토콜은?** <span style="color: #0000FF;">(내 답: ②)</span>  
+> **정답:** <mark style="background-color: #FF00004D;">**① RIP**</mark>  
+> **핵심:** RIP은 거리 벡터 알고리즘으로 최대 홉 수가 15로 제한됩니다.
+
+**99. [이미지] 파일 암호화 후 돈을 요구하는 공격은?** <span style="color: #0000FF;">(내 답: ④)</span>  
+> **결과:** ✅ 정답! (몸값(Ransom) + 소프트웨어 = **Ransomware**)
+
+**100. 인가된 사용자만 수정할 수 있는 보안 요소는?** <span style="color: #0000FF;">(내 답: ②)</span>  
+> **정답:** <mark style="background-color: #FF00004D;">**④ 무결성(Integrity)**</mark>  
+> **핵심:** 보안 3요소 (기밀성-인가된 사람만 읽기, **무결성-인가된 사람만 수정**, 가용성-필요할 때 사용).
